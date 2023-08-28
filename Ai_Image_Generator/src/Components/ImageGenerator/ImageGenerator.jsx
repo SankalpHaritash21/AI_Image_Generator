@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+.import React, { useRef, useState } from 'react'
 import d_image from '../Assets/default_image.svg'
 
 
@@ -19,7 +19,7 @@ const ImageGenerator = () => {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authorization: `Bearer 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`,
+        Authorization: `Bearer ${Enter Key}`,
       },
       body: JSON.stringify({
         prompt: inputRef.current.value,
